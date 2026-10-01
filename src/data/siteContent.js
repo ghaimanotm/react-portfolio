@@ -1,23 +1,17 @@
-/**
- * siteContent.js — single source of truth for all personal content.
- *
- * ✏️  EDIT THIS FILE to personalise the site. Every page reads from here,
- * so you never have to hunt through components to change your details.
- * Replace each value marked "REPLACE" with your own information.
- */
+
 
 /* ---------- Identity ---------- */
 export const ownerProfile = {
-  legalName: 'Your Full Legal Name', // REPLACE
-  initials: 'YN', // REPLACE — shown inside the hexagon logo
+  legalName: 'Haimanot Moges',
+  initials: 'HM', 
   jobTitle: 'Software Developer',
-  location: 'Waterloo, Ontario', // REPLACE if needed
-  email: 'ghaimanotm@gmail.com',
-  phone: '(555) 123-4567', // REPLACE
-  githubUrl: 'https://github.com/your-username', // REPLACE
-  linkedinUrl: 'https://www.linkedin.com/in/your-profile', // REPLACE
-  headshotPath: '/images/headshot.svg', // REPLACE with /images/headshot.jpg
-  resumePdfPath: '/resume.pdf', // REPLACE public/resume.pdf with your real resume
+  location: 'Ottawa, Ontario', 
+  email: 'hmoges3@my.centennialcollege.ca',
+  phone: '613 716 3226', 
+  githubUrl: 'https://github.com/ghaimanotm', 
+  linkedinUrl: 'https://www.linkedin.com/in/haimanot-moges',
+  headshotPath: '/images/headshot.jpeg',
+  resumePdfPath: '/resume.pdf', 
 };
 
 /* ---------- Home page ---------- */
