@@ -160,4 +160,4 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
 }
 
 /* Custom logo image in the navbar */
-.site-logo { object-fit: contain; border-radius: 8px; }
+.site-logo { height: 60px; width: auto; object-fit: contain; border-radius: 8px; }

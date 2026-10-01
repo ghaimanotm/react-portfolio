@@ -4,13 +4,11 @@
  */
 import { ownerProfile } from '../data/siteContent.js';
 
-export default function Logo({ size = 44 }) {
+export default function Logo() {
   return (
     <img
       src="/images/H_M_Portfolio.jpeg"
       alt={`${ownerProfile.legalName} logo`}
-      width={size}
-      height={size}
       className="site-logo"
     />
   );
