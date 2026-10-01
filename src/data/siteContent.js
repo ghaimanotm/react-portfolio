@@ -25,7 +25,7 @@ export const homeContent = {
 
 /* ---------- About page ---------- */
 export const aboutParagraphs = [
-  // REPLACE with 1–2 short paragraphs about yourself
+  
   'I am a software development student with a focus on front-end engineering and full-stack web applications. I enjoy building interfaces that feel fast and intuitive, and backing them with well-structured, tested code.',
   'Outside of coursework I contribute to small open-source projects, experiment with new frameworks, and help classmates debug their code. I am currently looking for co-op and junior developer opportunities.',
 ];
@@ -62,27 +62,40 @@ export const projectList = [
 
 /* ---------- Education page ---------- */
 export const educationHistory = [
-  // REPLACE with your real qualifications (newest first)
   {
-    credential: 'Diploma, Software Engineering Technology',
-    institution: 'Your College Name',
-    startYear: '2024',
-    endYear: '2027 (expected)',
-    details: 'Coursework: Web Development, Data Structures, Databases, Software Testing.',
+    credential: 'Ontario College Advanced Diploma, Software Engineering Technology – Artificial Intelligence',
+    institution: 'Centennial College (Online), Toronto, ON',
+    startYear: '2025',
+    endYear: 'Present',
+    details: 'Coursework: Web Application Development, Client-Side Web Development, Java Programming, Introduction to Databases, AI System Design, UNIX/Linux Operating Systems.',
   },
   {
-    credential: 'Certificate, Responsive Web Design',
-    institution: 'freeCodeCamp',
-    startYear: '2023',
+    credential: 'Master of Environmental Studies, Sustainability Management',
+    institution: 'University of Waterloo, Waterloo, ON',
+    startYear: '2022',
     endYear: '2023',
-    details: 'Completed 300 hours of HTML, CSS and accessibility curriculum.',
+    details: 'Graduate studies in sustainability management, combining research, data analysis and policy.',
   },
   {
-    credential: 'Ontario Secondary School Diploma (OSSD)',
-    institution: 'Your High School Name',
-    startYear: '2019',
-    endYear: '2023',
-    details: 'Honour roll; computer science and mathematics focus.',
+    credential: 'Ontario College Certificate, Sustainable Building Design and Construction',
+    institution: 'Sir Sandford Fleming College, Lindsay, ON',
+    startYear: '2017',
+    endYear: '2017',
+    details: 'Sustainable building design and construction practices; earned LEED Green Associate (USGBC) and Working at Heights certifications (2017).',
+  },
+  {
+    credential: 'Master of Science, Sustainable Technology',
+    institution: 'KTH Royal Institute of Technology, Stockholm, Sweden',
+    startYear: '2006',
+    endYear: '2009',
+    details: 'Graduate studies in sustainable technology and environmental systems.',
+  },
+  {
+    credential: 'Bachelor of Electrical & Electronics Technology',
+    institution: 'Adama University, Adama, Ethiopia',
+    startYear: '1999',
+    endYear: '2002',
+    details: 'Foundation in electrical and electronic systems, circuits and hardware.',
   },
 ];
 
