@@ -158,3 +158,6 @@ a:focus-visible, button:focus-visible, input:focus-visible, textarea:focus-visib
   .timeline-item { grid-template-columns: 1fr; gap: 4px; }
   .navbar-name { display: none; }
 }
+
+/* Custom logo image in the navbar */
+.site-logo { object-fit: contain; border-radius: 8px; }
